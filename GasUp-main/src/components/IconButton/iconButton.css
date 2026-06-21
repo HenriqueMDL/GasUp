@@ -1,0 +1,89 @@
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #f5a623, #f76c1e);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(247, 108, 30, 0.2);
+}
+
+.icon-button:hover:not(:disabled) {
+  opacity: 0.9;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(247, 108, 30, 0.3);
+}
+
+.icon-button:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.icon-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.icon-button-image {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.icon-button-emoji {
+  font-size: 20px;
+  display: inline-block;
+}
+
+.icon-button-label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Variantes de tamanho */
+.icon-button.small {
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+.icon-button.small .icon-button-image {
+  width: 16px;
+  height: 16px;
+}
+
+.icon-button.large {
+  padding: 12px 16px;
+  font-size: 16px;
+}
+
+.icon-button.large .icon-button-image {
+  width: 32px;
+  height: 32px;
+}
+
+/* Variantes de estilo */
+.icon-button.outline {
+  background: transparent;
+  color: #f76c1e;
+  border: 2px solid #f76c1e;
+  box-shadow: none;
+}
+
+.icon-button.outline:hover:not(:disabled) {
+  background: #fff5f0;
+}
+
+.icon-button.secondary {
+  background: #f0f0f0;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon-button.secondary:hover:not(:disabled) {
+  background: #e0e0e0;
+}

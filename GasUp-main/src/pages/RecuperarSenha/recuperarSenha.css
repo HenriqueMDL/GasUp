@@ -1,0 +1,64 @@
+.recuperar-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f1efed;
+  padding: 24px 16px;
+}
+
+.recuperar-container {
+  max-width: 360px;
+  width: 100%;
+}
+
+.recuperar-brand {
+  display: flex;
+  justify-content: center;
+  margin: 8px 0 12px;
+}
+
+.recuperar-logo {
+  width: 320px;
+  max-width: 60%;
+  height: auto;
+  display: block;
+}
+
+.recuperar-title {
+  margin: 12px 0 8px;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #333;
+  text-align: center;
+}
+
+.recuperar-subtitle {
+  margin: 0 0 20px;
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.recuperar-message {
+  color: #166534;
+  background: #dcfce7;
+  border: 1px solid #86efac;
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-size: 0.95rem;
+  text-align: center;
+  margin: 12px 0 16px;
+}
+
+.recuperar-btn {
+  margin-top: 8px;
+  width: 100%;
+  min-height: 52px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  display: block;
+  font-size: 1rem;
+  line-height: 1.2;
+}

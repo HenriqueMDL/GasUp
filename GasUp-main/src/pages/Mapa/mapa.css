@@ -1,0 +1,138 @@
+.mapa-page {
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.mapa-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.mapa-header h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a2e;
+  text-align: left;
+  margin-bottom: 4px;
+}
+
+.mapa-header .subtitle {
+  font-size: 14px;
+  color: #666;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.mapa-search {
+  margin-top: 8px;
+}
+
+.mapa-search .input-field {
+  width: 100%;
+  background: #ffffff;
+  padding-right: 40px;
+}
+
+.search-result-count {
+  display: block;
+  font-size: 12px;
+  color: #999;
+  margin-top: 4px;
+  text-align: right;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  font-size: 16px;
+  color: #666;
+}
+
+.postos-list {
+  padding: 16px 20px 20px;
+}
+
+.filter-row {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.filter-row span {
+  color: #999;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.filter-row span:hover {
+  color: #666;
+}
+
+.filter-row .active {
+  color: #f76c1e;
+  font-weight: 600;
+}
+
+.empty-state {
+  text-align: center;
+  color: #999;
+  padding: 40px 0;
+  font-size: 16px;
+}
+
+.posto-wrapper {
+  position: relative;
+}
+
+.btn-delete-posto {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+}
+
+.btn-delete-posto:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.badge-criado {
+  display: inline-block;
+  font-size: 11px;
+  background: #dbeafe;
+  color: #1d4ed8;
+  padding: 2px 10px;
+  border-radius: 12px;
+  margin-top: 4px;
+}
+
+.badge-favorito {
+  display: inline-block;
+  font-size: 11px;
+  background: #fef3c7;
+  color: #b45309;
+  padding: 2px 10px;
+  border-radius: 12px;
+  margin-top: 4px;
+}
+
+.posto-wrapper {
+  position: relative;
+  padding-bottom: 4px;
+}

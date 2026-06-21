@@ -1,0 +1,83 @@
+.posto-card {
+  background: white;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 12px 0;
+  border: 1px solid #eee;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.posto-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.posto-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.posto-card-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #f76c1e;
+}
+
+.posto-card-header-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.posto-card-distance {
+  font-size: 12px;
+  color: #666;
+  background: #f0f0f0;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.posto-card-prices {
+  margin-top: 8px;
+}
+
+.posto-card-price {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+  font-size: 14px;
+}
+
+.posto-card-price .label {
+  color: #666;
+}
+
+.posto-card-price .value {
+  font-weight: 600;
+}
+
+.posto-favorite-btn {
+  border: 1px solid #ffd9ba;
+  background: #fff7f1;
+  color: #d1c6bb;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.posto-favorite-btn:hover {
+  border-color: #f5a623;
+  color: #f5a623;
+}
+
+.posto-favorite-btn.active {
+  border-color: #f76c1e;
+  background: #fff1e7;
+  color: #f76c1e;
+}
